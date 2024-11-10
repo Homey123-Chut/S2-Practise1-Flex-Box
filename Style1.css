@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: pink;
+      }
+.container {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    padding-left: 10em;
+    padding-right: 10em; 
+    background-color: pink; 
+}
+
+.spacer {
+    height: 1em;              
+    background-color: greenyellow;    
+    width: 100%;               
+}
+
+.header,
+.main,
+.footer {
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    background-color: gray;
+    color: black;
+    width: 100%;
+    height: 100px;  
+             
+}
+
+.main {
+    flex-grow: 1;              
+    position: relative;
+}
+
+*/
+.main-label {
+    margin-left: 1em;
+    flex-grow: 1;               
+    align-self: flex-start;
+}
+.arrow {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: 3em;
+    color: white;
+    flex-grow: 2;               
+    gap: 0.5em;
+}
